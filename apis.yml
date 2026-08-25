@@ -1,8 +1,8 @@
-name: xRocket Pay API
+name: xRocket Exchange API
 description: >-
-  Payments API of xRocket, a Telegram-based crypto wallet/exchange. Lets developers integrate crypto payment features
-  (cheques, transfers, invoices, withdrawals) via a Bearer-authenticated REST API with production and testnet
-  environments.
+  Telegram-native centralized crypto exchange (CEX) developer program exposing a REST Exchange API for trading and
+  market data (with a WebSocket stream) and a REST Pay API for payments, cheques, invoices, transfers and withdrawals.
+  Bearer-token authenticated with public read endpoints and Swagger/OpenAPI contracts.
 url: https://raw.githubusercontent.com/api-evangelist/xrocket-pay-api/refs/heads/main/apis.yml
 created: '2026-08-25'
 modified: '2026-08-25'
@@ -16,6 +16,22 @@ tags:
   - Fintech
   - Blockchain
   - TON
+  - Cryptocurrency exchange
+  - CEX
+  - crypto payments
+  - trading
+  - market data
+  - wallet
+  - Web3
+  - blockchain
+  - Ethereum
+  - Bitcoin
+  - Solana
+  - BNB Chain
+  - TRON
+  - Telegram-native
+  - bot platform
+  - P2P trading
 apis:
   - name: xRocket Pay REST API
     description: >-
@@ -37,11 +53,72 @@ apis:
         url: https://docs.xrocket.exchange/api/pay/pay-api-overview
       - type: Documentation
         url: https://pay.api.xrocket.exchange/api/docs
+  - name: xRocket Exchange API
+    description: >-
+      REST API for creating/canceling market/limit orders, retrieving order books, tracking pair rates, executing trades
+      and querying conversion rates, plus a documented WebSocket stream for real-time market data, account updates,
+      balances and order events.
+    humanURL: https://docs.xrocket.exchange/api/exchange/reference/exchange-rest-api
+    baseURL: https://exchange.api.xrocket.exchange
+    tags:
+      - Cryptocurrency exchange
+      - CEX
+      - crypto payments
+      - trading
+      - market data
+      - wallet
+      - Web3
+      - blockchain
+      - TON
+      - Ethereum
+      - Bitcoin
+      - Solana
+      - BNB Chain
+      - TRON
+      - Telegram-native
+      - bot platform
+      - P2P trading
+    properties:
+      - type: OpenAPI
+        url: https://exchange.api.xrocket.exchange/api/docs
+      - type: Documentation
+        url: https://docs.xrocket.exchange/api/exchange/reference/exchange-rest-api
+  - name: xRocket Pay API
+    description: >-
+      REST API (v2) to manage cheques, transfers, invoices, withdrawal links, withdrawals, mass transfers and query
+      rates and currencies.
+    humanURL: https://docs.xrocket.exchange/api/pay/reference/pay-rest-api
+    baseURL: https://pay.api.xrocket.exchange
+    tags:
+      - Cryptocurrency exchange
+      - CEX
+      - crypto payments
+      - trading
+      - market data
+      - wallet
+      - Web3
+      - blockchain
+      - TON
+      - Ethereum
+      - Bitcoin
+      - Solana
+      - BNB Chain
+      - TRON
+      - Telegram-native
+      - bot platform
+      - P2P trading
+    properties:
+      - type: OpenAPI
+        url: https://pay.api.xrocket.exchange/api/docs/
+      - type: Documentation
+        url: https://docs.xrocket.exchange/api/pay/reference/pay-rest-api
 maintainers:
   - FN: xRocket Pay API
     url: https://docs.xrocket.exchange/
+  - FN: xRocket Exchange API
+    url: https://xrocket.exchange/api
 generated:
   by: apis.io/add
   model: claude-opus-4-8
-  confidence: 85
-  at: '2026-08-25T07:53:29.602Z'
+  confidence: 95
+  at: '2026-08-25T07:52:58.956Z'
