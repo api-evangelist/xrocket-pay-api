@@ -1,0 +1,47 @@
+name: xRocket Pay API
+description: >-
+  Payments API of xRocket, a Telegram-based crypto wallet/exchange. Lets developers integrate crypto payment features
+  (cheques, transfers, invoices, withdrawals) via a Bearer-authenticated REST API with production and testnet
+  environments.
+url: https://raw.githubusercontent.com/api-evangelist/xrocket-pay-api/refs/heads/main/apis.yml
+created: '2026-08-25'
+modified: '2026-08-25'
+specificationVersion: '0.21'
+tags:
+  - Cryptocurrency
+  - Payments
+  - Crypto payment gateway
+  - Telegram bots
+  - Digital wallet
+  - Fintech
+  - Blockchain
+  - TON
+apis:
+  - name: xRocket Pay REST API
+    description: >-
+      Bearer-authenticated REST API for crypto payments: cheques, transfers, invoices, withdrawals, mass transfers,
+      app-info, currencies and rates. Endpoints served under /api/v1/.
+    humanURL: https://docs.xrocket.exchange/api/pay/reference/pay-rest-api
+    baseURL: https://pay.api.xrocket.exchange/api/v1
+    tags:
+      - Cryptocurrency
+      - Payments
+      - Crypto payment gateway
+      - Telegram bots
+      - Digital wallet
+      - Fintech
+      - Blockchain
+      - TON
+    properties:
+      - type: Documentation
+        url: https://docs.xrocket.exchange/api/pay/pay-api-overview
+      - type: Documentation
+        url: https://pay.api.xrocket.exchange/api/docs
+maintainers:
+  - FN: xRocket Pay API
+    url: https://docs.xrocket.exchange/
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 85
+  at: '2026-08-25T07:53:29.602Z'
