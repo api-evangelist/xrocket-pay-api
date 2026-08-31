@@ -23,6 +23,30 @@ tags:
   - Payments
   - Crypto payment gateway
   - Telegram bots
+  - Digital Wallet
+  - Fintech
+  - Blockchain
+  - TON
+  - Cryptocurrency Exchange
+  - CEX
+  - Crypto Payments
+  - Trading
+  - Market Data
+  - Wallets
+  - Web3
+  - Ethereum
+  - Bitcoin
+  - Solana
+  - BNB Chain
+  - Tron
+  - Telegram-native
+  - bot platform
+  - P2P trading
+tags_raw:
+  - Cryptocurrency
+  - Payments
+  - Crypto payment gateway
+  - Telegram bots
   - Digital wallet
   - Fintech
   - Blockchain
@@ -55,6 +79,15 @@ apis:
       - Payments
       - Crypto payment gateway
       - Telegram bots
+      - Digital Wallet
+      - Fintech
+      - Blockchain
+      - TON
+    tags_raw:
+      - Cryptocurrency
+      - Payments
+      - Crypto payment gateway
+      - Telegram bots
       - Digital wallet
       - Fintech
       - Blockchain
@@ -72,6 +105,24 @@ apis:
     humanURL: https://docs.xrocket.exchange/api/exchange/reference/exchange-rest-api
     baseURL: https://exchange.api.xrocket.exchange
     tags:
+      - Cryptocurrency Exchange
+      - CEX
+      - Crypto Payments
+      - Trading
+      - Market Data
+      - Wallets
+      - Web3
+      - Blockchain
+      - TON
+      - Ethereum
+      - Bitcoin
+      - Solana
+      - BNB Chain
+      - Tron
+      - Telegram-native
+      - bot platform
+      - P2P trading
+    tags_raw:
       - Cryptocurrency exchange
       - CEX
       - crypto payments
@@ -101,6 +152,24 @@ apis:
     humanURL: https://docs.xrocket.exchange/api/pay/reference/pay-rest-api
     baseURL: https://pay.api.xrocket.exchange
     tags:
+      - Cryptocurrency Exchange
+      - CEX
+      - Crypto Payments
+      - Trading
+      - Market Data
+      - Wallets
+      - Web3
+      - Blockchain
+      - TON
+      - Ethereum
+      - Bitcoin
+      - Solana
+      - BNB Chain
+      - Tron
+      - Telegram-native
+      - bot platform
+      - P2P trading
+    tags_raw:
       - Cryptocurrency exchange
       - CEX
       - crypto payments
