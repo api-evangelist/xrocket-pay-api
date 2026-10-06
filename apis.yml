@@ -16,7 +16,7 @@ deliveryModel:
   generated: '2026-08-28'
   method: derived
 created: '2026-08-25'
-modified: '2026-09-16'
+modified: '2026-10-06'
 specificationVersion: '0.21'
 tags:
 - Cryptocurrency
@@ -200,5 +200,7 @@ generated:
   confidence: 95
   at: '2026-08-25T07:52:58.956Z'
 common:
+- url: https://xrocket.exchange/blog
+  type: Blog
 - type: Website
   url: https://xrocket.exchange
